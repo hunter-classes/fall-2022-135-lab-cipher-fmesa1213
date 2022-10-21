@@ -22,6 +22,8 @@ getline(cin, s);
 cout<<"Enter shift:"<<endl;
 cin >> n;
 
+  std::string solve(std::string encrypted_string)
+  
 cout<<"Ciphertext: "<<encryptCaesar(s, n)<<endl;
 return 0;
 }
